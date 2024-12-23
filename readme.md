@@ -1,6 +1,6 @@
 # **Multilingual Embedding Distillation**
 
-This repository contains code for **distilling a large English embedding model** into a smaller, multilingual embedding model capable of handling both English and Yoruba sentences. The goal is to produce a compact model that generates embeddings for Yoruba sentences aligned with high-quality English embeddings.
+This repository contains code for **distilling a large English embedding model** into a smaller, multilingual embedding model capable of handling both English and Yoruba sentences. The goal is to produce a compact model that generates embeddings for Yoruba sentences aligned with high-quality English embeddings. 
 
 ## **Objective**
 
@@ -108,7 +108,4 @@ The smaller student model (`BAAI/bge-base-en-v1.5`) is fine-tuned using English 
 
 ---
 
-## **Final Notes**
-
-This project demonstrates how to use knowledge distillation to adapt a monolingual model for multilingual tasks efficiently. It is a practical way to expand language support while maintaining quality and minimizing resource usage.
 
